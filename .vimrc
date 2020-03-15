@@ -39,6 +39,7 @@ augroup vimrcEx
   " For all text files set 'textwidth' to 78 characters.
   autocmd FileType text setlocal textwidth=78
   autocmd BufRead,BufNewFile *.js set expandtab tabstop=2 shiftwidth=2
+  autocmd BufRead,BufNewFile *.json set expandtab tabstop=2 shiftwidth=2
   autocmd BufRead,BufNewFile *.go set noexpandtab tabstop=4 shiftwidth=4
   autocmd BufRead,BufNewFile *.java set noexpandtab tabstop=4 shiftwidth=4
   autocmd BufRead,BufNewFile *.html,*.css set expandtab tabstop=4 shiftwidth=4
