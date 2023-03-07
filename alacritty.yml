@@ -1,0 +1,4 @@
+window:
+  startup_mode: SimpleFullscreen
+font:
+  size: 13.0
