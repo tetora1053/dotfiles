@@ -15,3 +15,7 @@ export CLICOLOR=1
 
 alias ll='ls -l'
 alias la='ls -al'
+
+# AWS
+export AWS_PROFILE=tetora
+export AWS_PAGER=cat
