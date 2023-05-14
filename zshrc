@@ -2,14 +2,14 @@ if [ -e $HOME/.zsh/completions ]; then
   fpath=($HOME/.zsh/completions $fpath)
 fi
 
-FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+# fpath
+export FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+export FPATH="$HOME/.zsh/functions:${FPATH}"
 
 autoload bashcompinit && bashcompinit
 autoload -Uz compinit && compinit
 
 eval "$(starship init zsh)"
-
-#source $HOME/.zsh/functions/*
 
 export CLICOLOR=1
 
