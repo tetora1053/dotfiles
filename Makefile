@@ -5,4 +5,3 @@ install-brew:
 
 install-gh: install-brew
 	brew install gh
-	gh completion -s $(basename $SHELL)
