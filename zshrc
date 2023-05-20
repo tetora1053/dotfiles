@@ -5,6 +5,7 @@ fi
 # fpath
 export FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 export FPATH="$HOME/.zsh/functions:${FPATH}"
+export FPATH="$HOME/.zsh/completions:${FPATH}"
 
 autoload bashcompinit && bashcompinit
 autoload -Uz compinit && compinit

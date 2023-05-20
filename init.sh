@@ -2,7 +2,7 @@
 
 base_dir=$(cd $(dirname $0); pwd)
 
-mkdir -p ~/.config/alacritty
+mkdir -p ~/.config/alacritty ~/.zsh/{functions,completions}
 
 # zsh
 ln -sf $base_dir/zshrc ~/.zshrc
