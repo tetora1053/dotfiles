@@ -1,6 +1,5 @@
 [aws]
 [aws.region_aliases]
-ap-northeast-1 = 'va'
 ap-northeast-1 = 'jp'
 
 [buf]
