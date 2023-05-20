@@ -5,3 +5,6 @@ install-brew:
 
 install-gh: install-brew
 	brew install gh
+
+install-terraform: install-brew
+	brew install terraform

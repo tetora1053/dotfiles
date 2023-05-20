@@ -20,3 +20,6 @@ alias la='ls -al'
 # AWS
 export AWS_PROFILE=tetora
 export AWS_PAGER=cat
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
