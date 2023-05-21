@@ -8,8 +8,8 @@ eval "$(starship init zsh)"
 
 export CLICOLOR=1
 
-alias ll='ls -l'
-alias la='ls -al'
+alias ll='ls -lF'
+alias la='ls -alF'
 
 # AWS
 export AWS_PROFILE=tetora
