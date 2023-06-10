@@ -1,4 +1,5 @@
-install: install-brew install-starship install-gh install-terraform
+# install all
+install-all: install-brew install-starship install-gh install-awscli install-terraform
 
 # brew
 install-brew:
