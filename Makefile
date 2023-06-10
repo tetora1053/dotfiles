@@ -12,6 +12,10 @@ install-starship: install-brew
 install-gh: install-brew
 	brew install gh
 
+# awscli
+install-awscli: install-brew
+	brew install awscli
+
 # terraform
 install-terraform: install-brew
 	brew install terraform
