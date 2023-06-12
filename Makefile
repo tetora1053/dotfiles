@@ -5,6 +5,10 @@ install-all: install-brew install-starship install-gh install-awscli install-ter
 install-brew:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# asdf
+install-asdf: install-brew
+	brew install asdf
+
 # starship
 install-starship: install-brew
 	brew install starship
