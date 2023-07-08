@@ -33,3 +33,5 @@ git-commit-and-push-for-poc() {
   fi
   git push origin $current_branch
 }
+
+alias 'k=kubectl'
