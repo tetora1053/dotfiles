@@ -24,3 +24,7 @@ install-awscli: install-brew
 # terraform
 install-terraform: install-brew
 	brew install terraform
+
+# argocd
+install-argocd: install-brew
+	brew install argocd
