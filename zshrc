@@ -7,6 +7,8 @@ export FPATH="$HOME/.zsh/completions:${FPATH}"
 eval "$(starship init zsh)"
 
 export CLICOLOR=1
+# do not display trailing '%'
+export PROMPT_EOL_MARK=''
 
 alias ll='ls -lF'
 alias la='ls -alF'
