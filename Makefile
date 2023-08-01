@@ -28,3 +28,7 @@ install-terraform: install-brew
 # argocd
 install-argocd: install-brew
 	brew install argocd
+
+# jq
+install-jq: install-brew
+	brew install jq
