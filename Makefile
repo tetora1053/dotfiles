@@ -32,3 +32,7 @@ install-argocd: install-brew
 # jq
 install-jq: install-brew
 	brew install jq
+
+# nvm
+install-nvm: install-brew
+	brew install nvm
