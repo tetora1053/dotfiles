@@ -33,6 +33,18 @@ install-argocd: install-brew
 install-jq: install-brew
 	brew install jq
 
+# yq
+install-yq: install-brew
+	brew install yq
+
 # nvm
 install-nvm: install-brew
 	brew install nvm
+
+# kubectl
+install-kubectl: install-brew
+	brew install kubectl
+
+# kubectx & kubens
+install-kubectx: install-brew
+	brew install kubectx
