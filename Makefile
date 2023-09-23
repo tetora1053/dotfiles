@@ -41,6 +41,11 @@ install-yq: install-brew
 install-nvm: install-brew
 	brew install nvm
 
+# bun
+install-bun: install-brew
+	brew tap oven-sh/bun
+	brew install bun
+
 # kubectl
 install-kubectl: install-brew
 	brew install kubectl
