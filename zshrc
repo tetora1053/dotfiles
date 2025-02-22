@@ -1,4 +1,7 @@
 
+# path
+export PATH=/opt/homebrew/bin:${PATH}
+
 # fpath
 export FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 export FPATH="$HOME/.zsh/functions:${FPATH}"
@@ -42,3 +45,4 @@ git-commit-and-push-for-poc() {
 }
 
 alias 'k=kubectl'
+alias 't=terraform'
